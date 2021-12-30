@@ -1,0 +1,18 @@
+{
+  "name": "nomad-typechain",
+  "version": "1.0.0",
+  "description": "small typescript block-chain project for ts middle class ",
+  "main": "index.js",
+  "repository": "https://github.com/ChangeOn/nomad-typechain.git",
+  "author": "changeon.kim <lygerastia5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.4"
+  }
+}
